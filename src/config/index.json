@@ -23,7 +23,7 @@
   ],
   "callToAction": {
     "text": "Get started",
-    "href": "#"
+    "href": "product"
   },
   "mainHero": {
     "title": "Welcome to",
@@ -32,11 +32,11 @@
     "img": "/assets/images/bee.jpg",
     "primaryAction": {
       "text": "Get started",
-      "href": "features"
+      "href": "#product"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:beebuddies@gmail.com?subject=I love bees!"
     }
   },
   "product": {
