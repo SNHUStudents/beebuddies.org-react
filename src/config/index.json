@@ -40,17 +40,12 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "About the Movement",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
-      },
-      {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Planting for Pollinators!",
+        "description": "Our service project was born out of SNHU’s Global Days of Service movement. These student-driven projects take place during March and April each year. The Bee Buddies campaign will focus on education and fundraising during March, and participants will plant their seeds on Earth Day Weekend: April 22nd, 23rd, 24th. We highly encourage our participants to reach out to their community and plant their seeds in an area that will benefit others. It’s important to note that all planting should be done with the landowners' permission. Participants are welcome to plant on their property if community planting is not possible. Become a Bee Buddy today and help feed the bees.",
+        "img": "/assets/images/earth.png"
       }
     ]
   },
