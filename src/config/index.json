@@ -86,8 +86,8 @@
     "title": "Pricing",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
+        "name": "Baby Bees",
+        "price": "$5",
         "priceDetails": "for one user",
         "features": [
           "1 user",
@@ -97,7 +97,7 @@
         ]
       },
       {
-        "name": "Pro",
+        "name": "Worker Bees",
         "price": "$15",
         "priceDetails": "per user",
 
@@ -109,8 +109,20 @@
         ]
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
+        "name": "Drone Bees",
+        "price": "$20",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Queen Bee",
+        "price": "$50",
         "priceDetails": "per user",
         "features": [
           "50 users",
