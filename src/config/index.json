@@ -5,11 +5,11 @@
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "About the Movement",
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "How to Participate",
       "href": "features"
     },
     {
@@ -17,7 +17,7 @@
       "href": "pricing"
     },
     {
-      "name": "About",
+      "name": "Socials",
       "href": "about"
     }
   ],
