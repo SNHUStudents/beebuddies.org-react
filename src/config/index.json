@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Bee Buddies ©2021",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
@@ -12,7 +12,6 @@
       "name": "Features",
       "href": "features"
     },
-
     {
       "name": "Pricing",
       "href": "pricing"
@@ -30,7 +29,7 @@
     "title": "Welcome to",
     "subtitle": "Bee Buddies.",
     "description": "Bees provide one of the most recognizable ecosystem services: pollination. They are the champions of protecting and maintaining ecosystems as well as animal and plant species by contributing to genetic and biotic diversity. We recognize all the beauty they give to our world, and return the favor by giving back. Join the movement and /bee/ a buddy to the bees today!",
-    "img": "/assets/images/happyTeam.jpeg",
+    "img": "/assets/images/bee.jpg",
     "primaryAction": {
       "text": "Get started",
       "href": "features"
