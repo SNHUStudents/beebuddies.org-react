@@ -1,57 +1,51 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Bee Buddies ©2021",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "About the Movement",
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "How to Participate",
       "href": "features"
     },
-
     {
       "name": "Pricing",
       "href": "pricing"
     },
     {
-      "name": "About",
+      "name": "Socials",
       "href": "about"
     }
   ],
   "callToAction": {
     "text": "Get started",
-    "href": "#"
+    "href": "product"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Welcome to",
+    "subtitle": "Bee Buddies.",
+    "description": "Bees provide one of the most recognizable ecosystem services: pollination. They are the champions of protecting and maintaining ecosystems as well as animal and plant species by contributing to genetic and biotic diversity. We recognize all the beauty they give to our world, and return the favor by giving back. Join the movement and /bee/ a buddy to the bees today!",
+    "img": "/assets/images/bee.jpg",
     "primaryAction": {
       "text": "Get started",
-      "href": "#"
+      "href": "#product"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:beebuddies@gmail.com?subject=I love bees!"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "About the Movement",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
-      },
-      {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Planting for Pollinators!",
+        "description": "Our service project was born out of SNHU’s Global Days of Service movement. These student-driven projects take place during March and April each year. The Bee Buddies campaign will focus on education and fundraising during March, and participants will plant their seeds on Earth Day Weekend: April 22nd, 23rd, 24th. We highly encourage our participants to reach out to their community and plant their seeds in an area that will benefit others. It’s important to note that all planting should be done with the landowners' permission. Participants are welcome to plant on their property if community planting is not possible. Become a Bee Buddy today and help feed the bees.",
+        "img": "/assets/images/earth.png"
       }
     ]
   },
@@ -86,8 +80,8 @@
     "title": "Pricing",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
+        "name": "Baby Bees",
+        "price": "$5",
         "priceDetails": "for one user",
         "features": [
           "1 user",
@@ -97,7 +91,7 @@
         ]
       },
       {
-        "name": "Pro",
+        "name": "Worker Bees",
         "price": "$15",
         "priceDetails": "per user",
 
@@ -109,8 +103,20 @@
         ]
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
+        "name": "Drone Bees",
+        "price": "$20",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Queen Bee",
+        "price": "$50",
         "priceDetails": "per user",
         "features": [
           "50 users",
