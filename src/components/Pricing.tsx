@@ -164,7 +164,7 @@ const Pricing = () => {
                 <span className={`text-base`}> {fourthPlan?.priceDetails}</span>
               </div>
               <div>
-                {DropdownMenu}
+                {DropdownMenu()}
                 <button onClick={()=> window.open("https://google.com", '_blank')} className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:#FFFFFF md:py-4 md:text-lg md:px-10`}>
                   Purchase
                 </button>
