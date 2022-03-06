@@ -82,48 +82,49 @@
       {
         "name": "Baby Bees",
         "price": "$5",
-        "priceDetails": "for one user",
+        "priceDetails": "",
         "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
+          "1 Regular Sticker",
+          "1 Seed Packet"
         ]
       },
       {
         "name": "Worker Bees",
         "price": "$15",
-        "priceDetails": "per user",
+        "priceDetails": "",
 
         "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
+          "1 Holographic Sticker",
+          "2 Seed Packets"
         ]
       },
       {
         "name": "Drone Bees",
         "price": "$20",
-        "priceDetails": "per user",
+        "priceDetails": "",
 
         "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
+          "1 Regular Sticker",
+          "1 Holographic Sticker",
+          "3 Seed Packets"
         ]
       },
       {
         "name": "Queen Bee",
         "price": "$50",
-        "priceDetails": "per user",
+        "priceDetails": "",
         "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
+          "1 Regular Sticker",
+          "1 Holographic Sticker",
+          "4 Seed Packets",
+          "A Bee Buddies T-Shirt!"
         ]
+      },
+      {
+        "name": "",
+        "price": "",
+        "priceDetails": "",
+        "features": [""]
       }
     ]
   },
