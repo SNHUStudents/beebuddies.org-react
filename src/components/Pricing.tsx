@@ -1,6 +1,8 @@
 import React from 'react';
 
 import config from '../config/index.json';
+import { Link } from 'react-router-dom';
+import { event } from '../lib/gtag';
 
 const Pricing = () => {
   const { pricing } = config;
@@ -52,6 +54,11 @@ const Pricing = () => {
                 {firstPlan?.price}
                 <span className={`text-base`}> {firstPlan?.priceDetails}</span>
               </div>
+              <div>
+                <button onClick={()=> window.open("https://google.com", '_blank')} className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:#FFFFFF md:py-4 md:text-lg md:px-10`}>
+                  Purchase
+                </button>
+              </div>
             </div>
           </div>
           <div
@@ -83,6 +90,11 @@ const Pricing = () => {
                 {secondPlan?.price}
                 <span className={`text-base`}> {secondPlan?.priceDetails}</span>
               </div>
+              <div>
+                <button onClick={()=> window.open("https://google.com", '_blank')} className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:#FFFFFF md:py-4 md:text-lg md:px-10`}>
+                  Purchase
+                </button>
+              </div>
             </div>
           </div>
           <div
@@ -113,6 +125,11 @@ const Pricing = () => {
               >
                 {thirdPlan?.price}
                 <span className={`text-base`}> {thirdPlan?.priceDetails}</span>
+              </div>
+              <div>
+                <button onClick={()=> window.open("https://google.com", '_blank')} className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:#FFFFFF md:py-4 md:text-lg md:px-10`}>
+                  Purchase
+                </button>
               </div>
             </div>
           </div>
@@ -146,6 +163,11 @@ const Pricing = () => {
               <div className={`w-full pt-6 text-4xl font-bold text-center`}>
                 {fourthPlan?.price}
                 <span className={`text-base`}> {fourthPlan?.priceDetails}</span>
+              </div>
+              <div>
+                <button onClick={()=> window.open("https://google.com", '_blank')} className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:#FFFFFF md:py-4 md:text-lg md:px-10`}>
+                  Purchase
+                </button>
               </div>
             </div>
           </div>
