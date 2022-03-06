@@ -1,8 +1,6 @@
 import React from 'react';
 
 import config from '../config/index.json';
-import { Link } from 'react-router-dom';
-import { event } from '../lib/gtag';
 
 const Pricing = () => {
   const { pricing } = config;
