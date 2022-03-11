@@ -52,26 +52,26 @@
   "features": {
     "title": "How do I participate?",
     "subtitle": "Bee-come a Buddy!",
-    "description": "To become a Bee Buddy, all you need to do is purchase a package. Each package comes with a set amount of bee-appropriate seeds. We ask that you plant on Earth Day weekend and consider sharing pictures of the process. Our movement will grow if we can create a buzz around our Bee Beedies. Each package comes with a memento for our participants to keep. Lastly, please consider joining us next year too, as we hope for this to be an annual event.",
+    "description": "To become a Bee Buddy, all you need to do is purchase a package. Each package comes with a set amount of bee-appropriate seeds and a momento for our participants to keep. We ask that you plant on Earth Day weekend and consider sharing pictures of the process. Our movement will grow if we can create a buzz around our Bee Beedies. Lastly, please consider joining us next year too, as we hope for this to be an annual event.",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "name": "Seed Packets",
+        "description": "A packet filled with wildflower seeds to feed the bees!",
         "icon": "/assets/images/react.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "name": "Vinyl Sticker",
+        "description": "The Bee Buddies logo as a vinyl sticker. Thanks for your beesiness!",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "name": "Holographic Vinyl Sticker",
+        "description": "The Bee Buddies logo, but holographic! A vinyl sticker to last you for years.",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "name": "Bee Buddies T-Shirt",
+        "description": "Show your support with our stylish wear! Reserved for the most serious of bee buddies.",
         "icon": "/assets/images/ts.png"
       }
     ]
