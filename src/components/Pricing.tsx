@@ -1,5 +1,4 @@
 import React from 'react';
-import Dropdown from 'react-dropdown';
 
 import config from '../config/index.json';
 
@@ -7,26 +6,6 @@ const Pricing = () => {
   const { pricing } = config;
   const { items, title } = pricing;
   const [firstPlan, secondPlan, thirdPlan, fourthPlan] = items;
-
-  const options = [
-    'Small',
-    'Medium',
-    'Large',
-    'XL',
-    '2 XL',
-    '3 XL',
-    '4 XL'
-  ];
-  
-  const sizes = [
-    { size: 'Small', link: "https://google.com" },
-    { size: 'Medium', link: "https://google.com" },
-    { size: 'Large', link: "https://google.com" },
-    { size: 'XL', link: "https://google.com" },
-    { size: '2 XL', link: "https://google.com" },
-    { size: '3 XL', link: "https://google.com" },
-    { size: '4 XL', link: "https://google.com" }
-  ];
 
   return (
     <section className={`bg-background py-8`} id="pricing">
