@@ -18,9 +18,18 @@ const Pricing = () => {
     '4 XL'
   ];
   
+  const sizes = [
+    { size: 'Small', link: "https://google.com" },
+    { size: 'Medium', link: "https://google.com" },
+    { size: 'Large', link: "https://google.com" },
+    { size: 'XL', link: "https://google.com" },
+    { size: '2 XL', link: "https://google.com" },
+    { size: '3 XL', link: "https://google.com" },
+    { size: '4 XL', link: "https://google.com" }
+  ];
   handleClick() {
 
-    
+
 
   }
 
