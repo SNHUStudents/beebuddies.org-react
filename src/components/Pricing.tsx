@@ -1,4 +1,5 @@
 import React from 'react';
+import Dropdown from 'react-dropdown';
 
 import config from '../config/index.json';
 
@@ -6,6 +7,22 @@ const Pricing = () => {
   const { pricing } = config;
   const { items, title } = pricing;
   const [firstPlan, secondPlan, thirdPlan, fourthPlan] = items;
+
+  const options = [
+    'Small',
+    'Medium',
+    'Large',
+    'XL',
+    '2 XL',
+    '3 XL',
+    '4 XL'
+  ];
+  
+  handleClick() {
+
+    
+
+  }
 
   return (
     <section className={`bg-background py-8`} id="pricing">
@@ -52,6 +69,11 @@ const Pricing = () => {
                 {firstPlan?.price}
                 <span className={`text-base`}> {firstPlan?.priceDetails}</span>
               </div>
+              <div>
+                <button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+                  Purchase
+                </button>
+              </div>
             </div>
           </div>
           <div
@@ -83,6 +105,11 @@ const Pricing = () => {
                 {secondPlan?.price}
                 <span className={`text-base`}> {secondPlan?.priceDetails}</span>
               </div>
+              <div>
+                <button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+                  Purchase
+                </button>
+              </div>
             </div>
           </div>
           <div
@@ -113,6 +140,11 @@ const Pricing = () => {
               >
                 {thirdPlan?.price}
                 <span className={`text-base`}> {thirdPlan?.priceDetails}</span>
+              </div>
+              <div>
+                <button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+                  Purchase
+                </button>
               </div>
             </div>
           </div>
@@ -146,6 +178,9 @@ const Pricing = () => {
               <div className={`w-full pt-6 text-4xl font-bold text-center`}>
                 {fourthPlan?.price}
                 <span className={`text-base`}> {fourthPlan?.priceDetails}</span>
+              </div>
+              <div>
+                <Dropdown placeholder="Select an Size" className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`} options={options} onClick={ this.handleClick }/>
               </div>
             </div>
           </div>
