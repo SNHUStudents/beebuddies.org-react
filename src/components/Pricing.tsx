@@ -47,9 +47,10 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div>
-                <button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+                <a href="https://buy.stripe.com/cN27ur96e62N8oMaEE"><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
                   Purchase
                 </button>
+                </a>
               </div>
               <div
                 className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}
@@ -83,9 +84,10 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div>
-                <button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+              <a href="https://buy.stripe.com/9AQ3eb82agHrdJ6dQR"><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
                   Purchase
                 </button>
+                </a>
               </div>
               <div
                 className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}
@@ -121,9 +123,10 @@ const Pricing = () => {
               className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
             >
               <div>
-                <button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+              <a href="https://buy.stripe.com/cN2cOL4PYbn78oM8wy"><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
                   Purchase
                 </button>
+                </a>
               </div>
               <div
                 className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}
@@ -168,13 +171,13 @@ const Pricing = () => {
                 </button>
               
                 <ul className="dropdown-menu absolute hidden text-gray-700 pt-1">
-                  <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Small</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Medium</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Large</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">XL</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">2 XL</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">3 XL</a></li>
-                  <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">4 XL</a></li>
+                  <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">Small</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">Medium</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">Large</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">XL</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">2 XL</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">3 XL</a></li>
+                  <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">4 XL</a></li>
                 </ul>
 
               </div>
