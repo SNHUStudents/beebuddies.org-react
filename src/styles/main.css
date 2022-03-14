@@ -32,15 +32,6 @@ a.honey {
   transition: 0.5s;
 }
 
-
-a.butter{
-  color: #8c5bb3;
-}
-a.butter:hover {
-  background-color: #8c5bb3;
-  color: white;
-}
-
 a span{
   position: absolute;
   width: 25%;
