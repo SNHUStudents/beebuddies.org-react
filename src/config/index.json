@@ -58,25 +58,25 @@
         "name": "Facebook",
         "description": "",
         "icon": "/assets/images/icon_facebook.png",
-        "link": "https://www.facebook.com"
+        "link": "https://www.facebook.com/Bee-Buddies-107871111860596/"
       },
       {
         "name": "Instagram",
         "description": "",
         "icon": "/assets/images/icon_instagram.png",
-        "link": "https://www.instagram.com"
+        "link": "https://www.instagram.com/beebuddiesorg/"
       },
       {
         "name": "Twitter",
         "description": "",
         "icon": "/assets/images/icon_twitter.png",
-        "link": "https://www.twitter.com"
+        "link": "https://twitter.com/BeeBuddiesOrg"
       },
       {
         "name": "Tiktok",
         "description": "",
         "icon": "/assets/images/tiktok-round.png",
-        "link": "https://www.tiktok.com"
+        "link": "https://www.tiktok.com/@beebuddiesorg"
       }
     ]
   },
