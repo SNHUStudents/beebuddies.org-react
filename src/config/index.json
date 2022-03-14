@@ -53,7 +53,32 @@
     "title": "How do I participate?",
     "subtitle": "Bee-come a Buddy!",
     "description": "To become a Bee Buddy, all you need to do is purchase a package. Each package comes with a set amount of bee-appropriate seeds and a momento for our participants to keep. We ask that you plant on Earth Day weekend and consider sharing pictures of the process. Our movement will grow if we can create a buzz around our Bee Buddies. People are welcome to volunteer with us by purchasing their own seeds directly and planting on Earth Day weekend. Please be sure to share your experience with us on our social media. Lastly, please consider joining us next year too, as we hope for this to be an annual event.",
-    "items": []
+    "items": [
+      {
+        "name": "Facebook",
+        "description": "",
+        "icon": "/assets/images/icon_facebook.png",
+        "link": "https://www.facebook.com"
+      },
+      {
+        "name": "Instagram",
+        "description": "",
+        "icon": "/assets/images/icon_instagram.png",
+        "link": "https://www.instagram.com"
+      },
+      {
+        "name": "Twitter",
+        "description": "",
+        "icon": "/assets/images/icon_twitter.png",
+        "link": "https://www.twitter.com"
+      },
+      {
+        "name": "Tiktok",
+        "description": "",
+        "icon": "/assets/images/tiktok-round.png",
+        "link": "https://www.tiktok.com"
+      }
+    ]
   },
   "pricing": {
     "title": "Pricing",
