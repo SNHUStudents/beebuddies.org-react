@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "Bee Buddies ©2021",
+    "name": "Bee Buddies ©2022",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
@@ -52,29 +52,8 @@
   "features": {
     "title": "How do I participate?",
     "subtitle": "Bee-come a Buddy!",
-    "description": "To become a Bee Buddy, all you need to do is purchase a package. Each package comes with a set amount of bee-appropriate seeds and a momento for our participants to keep. We ask that you plant on Earth Day weekend and consider sharing pictures of the process. Our movement will grow if we can create a buzz around our Bee Beedies. Lastly, please consider joining us next year too, as we hope for this to be an annual event.",
-    "items": [
-      {
-        "name": "Seed Packets",
-        "description": "A packet filled with wildflower seeds to feed the bees!",
-        "icon": "/assets/images/react.png"
-      },
-      {
-        "name": "Vinyl Sticker",
-        "description": "The Bee Buddies logo as a vinyl sticker. Thanks for your beesiness!",
-        "icon": "/assets/images/tailwindcss.svg"
-      },
-      {
-        "name": "Holographic Vinyl Sticker",
-        "description": "The Bee Buddies logo, but holographic! A vinyl sticker to last you for years.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Bee Buddies T-Shirt",
-        "description": "Show your support with our stylish wear! Reserved for the most serious of bee buddies.",
-        "icon": "/assets/images/ts.png"
-      }
-    ]
+    "description": "To become a Bee Buddy, all you need to do is purchase a package. Each package comes with a set amount of bee-appropriate seeds and a momento for our participants to keep. We ask that you plant on Earth Day weekend and consider sharing pictures of the process. Our movement will grow if we can create a buzz around our Bee Buddies. People are welcome to volunteer with us by purchasing their own seeds directly and planting on Earth Day weekend. Please be sure to share your experience with us on our social media. Lastly, please consider joining us next year too, as we hope for this to be an annual event.",
+    "items": []
   },
   "pricing": {
     "title": "Pricing",
@@ -151,9 +130,9 @@
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
+      "facebook": "https://facebook.com/issaafalkattan",
       "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "instagram": "https://www.instagram.com/issaaf-kattan/"
     }
   }
 }
