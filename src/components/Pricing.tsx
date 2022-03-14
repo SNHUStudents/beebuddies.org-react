@@ -171,13 +171,12 @@ const Pricing = () => {
                 </button>
               
                 <ul className="dropdown-menu absolute hidden text-gray-700 pt-1">
-                  <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">Small</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">Medium</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">Large</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">XL</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">2 XL</a></li>
-                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">3 XL</a></li>
-                  <li className=""><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw6qn82a3UF20o147">4 XL</a></li>
+                  <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/4gw01Zeqy0It0WkcMQ">Small</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/00g01Z82a2QB9sQdQV">Medium</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/00g8yv5U2gHr20o006">Large</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/dR6g0X0zIcrb8oM7sz">XL</a></li>
+                  <li className=""><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/8wM8yvciqaj3awU6ow">2 XL</a></li>
+                  <li className=""><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="https://buy.stripe.com/dR63ebgyG9eZgVieV3">3 XL</a></li>
                 </ul>
 
               </div>
