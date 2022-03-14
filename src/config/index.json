@@ -100,7 +100,13 @@
     ]
   },
   "about": {
-    "sections": [],
+    "sections": [
+      {
+        "name": "",
+        "href": "",
+        "content": ""
+      }
+    ],
     "socialMedia": {
       "facebook": "https://facebook.com/issaafalkattan",
       "twitter": "https://twitter.com/issaafkattan",
