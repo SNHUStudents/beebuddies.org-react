@@ -18,6 +18,14 @@
   display: block;
 }
 
+.featurebox {
+  position: relative;
+  margin: auto;
+  padding-left: 7%;
+  padding-top: 2em;
+  width: 50%;
+}
+
 a.honey {
   --c: white;
   background-color: #8c5bb3;

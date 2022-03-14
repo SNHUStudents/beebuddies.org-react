@@ -12,6 +12,7 @@ const Menu = () => {
 
   return (
     <>
+    <title>Bee Buddies</title>
       <svg
         className={`hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-background transform translate-x-1/2`}
         fill="currentColor"
