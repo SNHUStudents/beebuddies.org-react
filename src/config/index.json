@@ -71,7 +71,6 @@
         "name": "Worker Bees",
         "price": "$15",
         "priceDetails": "",
-
         "features": [
           "1 Holographic Sticker",
           "2 Seed Packets"
@@ -81,7 +80,6 @@
         "name": "Drone Bees",
         "price": "$20",
         "priceDetails": "",
-
         "features": [
           "1 Regular Sticker",
           "1 Holographic Sticker",
