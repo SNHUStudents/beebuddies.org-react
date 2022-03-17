@@ -76,6 +76,7 @@ const Menu = () => {
             focus
             className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
           >
+            {({ close }) => (
             <div
               className={`rounded-lg shadow-md bg-background ring-1 ring-black ring-opacity-5 overflow-hidden`}
             >
@@ -102,6 +103,7 @@ const Menu = () => {
                     key={item.name}
                     to={item.href}
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                    onClick={async() => close()}
                   >
                     {item.name}
                   </Link>
@@ -114,6 +116,7 @@ const Menu = () => {
                 {callToAction.text}
               </a>
             </div>
+            )}
           </Popover.Panel>
         </Transition>
       </Popover>
