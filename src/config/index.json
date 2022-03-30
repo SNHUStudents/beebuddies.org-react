@@ -1,15 +1,15 @@
 {
   "company": {
-    "name": "Bee Buddies ©2021",
+    "name": "Bee Buddies ©2022",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "About the Movement",
+      "name": "The Movement",
       "href": "product"
     },
     {
-      "name": "How to Participate",
+      "name": "Participating",
       "href": "features"
     },
     {
@@ -29,14 +29,14 @@
     "title": "Welcome to",
     "subtitle": "Bee Buddies.",
     "description": "Bees provide one of the most recognizable ecosystem services: pollination. They are the champions of protecting and maintaining ecosystems as well as animal and plant species by contributing to genetic and biotic diversity. We recognize all the beauty they give to our world, and return the favor by giving back. Join the movement and /bee/ a buddy to the bees today!",
-    "img": "/assets/images/bee.jpg",
+    "img": "/assets/images/banner1.png",
     "primaryAction": {
       "text": "Get started",
       "href": "#product"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:beebuddies@gmail.com?subject=I love bees!"
+      "href": "mailto:beebuddies.org@gmail.com?subject=I love bees!"
     }
   },
   "product": {
@@ -45,34 +45,38 @@
       {
         "title": "Planting for Pollinators!",
         "description": "Our service project was born out of SNHU’s Global Days of Service movement. These student-driven projects take place during March and April each year. The Bee Buddies campaign will focus on education and fundraising during March, and participants will plant their seeds on Earth Day Weekend: April 22nd, 23rd, 24th. We highly encourage our participants to reach out to their community and plant their seeds in an area that will benefit others. It’s important to note that all planting should be done with the landowners' permission. Participants are welcome to plant on their property if community planting is not possible. Become a Bee Buddy today and help feed the bees.",
-        "img": "/assets/images/earth.png"
+        "img": "/assets/images/sticker.png"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "How do I participate?",
+    "subtitle": "Bee-come a Buddy!",
+    "description": "To become a Bee Buddy, all you need to do is purchase a package. Each package comes with a set amount of bee-appropriate seeds and a momento for our participants to keep. We ask that you plant on Earth Day weekend and consider sharing pictures of the process. Our movement will grow if we can create a buzz around our Bee Buddies. People are welcome to volunteer with us by purchasing their own seeds directly and planting on Earth Day weekend. Please be sure to share your experience with us on our social media. Lastly, please consider joining us next year too, as we hope for this to be an annual event.",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Facebook",
+        "description": "",
+        "icon": "/assets/images/icon_facebook.png",
+        "link": "https://www.facebook.com/Bee-Buddies-107871111860596/"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "Instagram",
+        "description": "",
+        "icon": "/assets/images/icon_instagram.png",
+        "link": "https://www.instagram.com/beebuddiesorg/"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
+        "name": "Twitter",
+        "description": "",
+        "icon": "/assets/images/icon_twitter.png",
+        "link": "https://twitter.com/BeeBuddiesOrg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "Tiktok",
+        "description": "",
+        "icon": "/assets/images/tiktok-round.png",
+        "link": "https://www.tiktok.com/@beebuddiesorg"
       }
     ]
   },
@@ -92,7 +96,6 @@
         "name": "Worker Bees",
         "price": "$15",
         "priceDetails": "",
-
         "features": [
           "1 Holographic Sticker",
           "2 Seed Packets"
@@ -102,7 +105,6 @@
         "name": "Drone Bees",
         "price": "$20",
         "priceDetails": "",
-
         "features": [
           "1 Regular Sticker",
           "1 Holographic Sticker",
@@ -131,30 +133,15 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "",
+        "href": "",
+        "content": ""
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "facebook": "https://www.facebook.com/BeeBuddiesOrg/",
+      "twitter": "https://twitter.com/BeeBuddiesOrg",
+      "instagram": "https://www.instagram.com/beebuddiesorg/"
     }
   }
 }
