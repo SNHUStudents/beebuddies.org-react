@@ -113,7 +113,7 @@ const Pricing = () => {
         <div className={`flex flex-col w-4/6 lg:w-1/3 mx-auto rounded-lg bg-background mt-6 shadow-lg z-10`}>
           <div className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}>
           <div className="img__wrapper">
-          <img src="http://www.savoy-sharm.com/media-room/images/hi-res/king-bed-room-accommodation-savoy-luxury-5-stars-accommodation-sharm-el-sheikh.jpg" alt="" />
+          <img src="https://www.savoy-sharm.com/media-room/images/hi-res/king-bed-room-accommodation-savoy-luxury-5-stars-accommodation-sharm-el-sheikh.jpg" alt="" />
         <a className="sold_out hover:text-white">Sold out</a>
             <div className={`p-8 text-3xl font-bold text-center opacity-50`}>
               {fourthPlan?.name}
