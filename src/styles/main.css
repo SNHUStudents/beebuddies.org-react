@@ -89,10 +89,7 @@ ul, li {
   @apply my-6;
 }
 
-body {background: #333}
 .img__wrapper{
-  width: 500px;
-  height: 300px;
   position:relative;
   overflow:hidden;
 }
