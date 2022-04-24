@@ -22,10 +22,13 @@ const Pricing = () => {
         <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4`}>
           <div className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-background mt-4`}>
             <div className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}>
-              <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
+            <div className="img__wrapper">
+              <img src="https://www.savoy-sharm.com/media-room/images/hi-res/king-bed-room-accommodation-savoy-luxury-5-stars-accommodation-sharm-el-sheikh.jpg" alt="" />
+              <a className="sold_out hover:text-white">Sold out</a>
+              <div className={`p-8 text-3xl font-bold text-center border-b-4 opacity-50`}>
                 {firstPlan?.name}
               </div>
-              <ul className={`w-full text-center text-sm`}>
+              <ul className={`w-full text-center text-sm opacity-50`}>
                 {firstPlan?.features.map((feature) => (
                   <li
                     className={`border-b py-4`}
@@ -35,15 +38,16 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul>
+              </div>
             </div>
             <div className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}>
               <div>
-                <a href="https://buy.stripe.com/cN27ur96e62N8oMaEE"><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+                <a /*href="https://buy.stripe.com/cN27ur96e62N8oMaEE"*/><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary md:py-4 md:text-lg md:px-10 opacity-50 cursor-not-allowed`} disabled>
                   Purchase
                 </button>
                 </a>
               </div>
-              <div className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}>
+              <div className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center opacity-50`}>
                 {firstPlan?.price}
                 <span className={`text-base`}> {firstPlan?.priceDetails}</span>
               </div>
@@ -51,10 +55,13 @@ const Pricing = () => {
           </div>
           <div className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-primary mt-4`}>
             <div className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}>
-              <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
+            <div className="img__wrapper">
+              <img src="https://www.savoy-sharm.com/media-room/images/hi-res/king-bed-room-accommodation-savoy-luxury-5-stars-accommodation-sharm-el-sheikh.jpg" alt="" />
+              <a className="sold_out hover:text-white">Sold out</a>
+              <div className={`p-8 text-3xl font-bold text-center border-b-4 opacity-50`}>
                 {secondPlan?.name}
               </div>
-              <ul className={`w-full text-center text-sm`}>
+              <ul className={`w-full text-center text-sm opacity-50`}>
                 {secondPlan?.features.map((feature) => (
                   <li
                     className={`border-b py-4`}
@@ -64,15 +71,16 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul>
+              </div>
             </div>
             <div className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}>
               <div>
-              <a href="https://buy.stripe.com/9AQ3eb82agHrdJ6dQR"><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+              <a /*href="https://buy.stripe.com/9AQ3eb82agHrdJ6dQR"*/><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary md:py-4 md:text-lg md:px-10 opacity-50 cursor-not-allowed`} disabled>
                   Purchase
                 </button>
                 </a>
               </div>
-              <div className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}>
+              <div className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center opacity-50`}>
                 {secondPlan?.price}
                 <span className={`text-base`}> {secondPlan?.priceDetails}</span>
               </div>
@@ -82,28 +90,32 @@ const Pricing = () => {
           </div>
           <div className={`flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-primary mt-4`}>
             <div className={`flex-1 bg-background text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}>
-              <div className={`p-8 text-3xl font-bold text-center border-b-4`}>
+            <div className="img__wrapper">
+              <img src="https://www.savoy-sharm.com/media-room/images/hi-res/king-bed-room-accommodation-savoy-luxury-5-stars-accommodation-sharm-el-sheikh.jpg" alt="" />
+              <a className="sold_out hover:text-white">Sold out</a>
+              <div className={`p-8 text-3xl font-bold text-center border-b-4 opacity-50`}>
                 {thirdPlan?.name}
               </div>
-              <ul className={`w-full text-center text-sm`}>
+              <ul className={`w-full text-center text-sm opacity-50`}>
                 {thirdPlan?.features.map((feature) => (
                   <li
-                    className={`border-b py-4`}
+                    className={`border-b py-4 opacity-50`}
                     key={`${thirdPlan?.name}-${feature}`}
                   >
                     {feature}
                   </li>
                 ))}
               </ul>
+              </div>
             </div>
             <div className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}>
               <div>
-              <a href="https://buy.stripe.com/cN2cOL4PYbn78oM8wy"><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
+              <a /*href="https://buy.stripe.com/cN2cOL4PYbn78oM8wy"*/><button className={`honey w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary md:py-4 md:text-lg md:px-10 opacity-50 cursor-not-allowed`} disabled>
                   Purchase
                 </button>
                 </a>
               </div>
-              <div className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}>
+              <div className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center opacity-50`}>
                 {thirdPlan?.price}
                 <span className={`text-base`}> {thirdPlan?.priceDetails}</span>
               </div>
